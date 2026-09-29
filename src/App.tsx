@@ -815,10 +815,10 @@ function App() {
                 <h2 className="resume-title">A closer look at <em>the work so far.</em></h2>
                 <p className="resume-text">For a concise view of my education, foundations, projects, and achievements, view or download my current resume.</p>
                 <div className="resume-actions">
-                  <a className="btn btn-light" href={withPublicAsset('Mukesh_K_Resume.html')} target="_blank" rel="noreferrer">
+                  <a className="btn btn-light" href={withPublicAsset('Mukesh%20K%20Resume.pdf')} target="_blank" rel="noreferrer">
                     View Resume <ExternalLink />
                   </a>
-                  <a className="btn btn-outline-light" href={withPublicAsset('Mukesh_K_Resume.html')} download>
+                  <a className="btn btn-outline-light" href={withPublicAsset('Mukesh%20K%20Resume.pdf')} download>
                     Download Resume <Download />
                   </a>
                 </div>
